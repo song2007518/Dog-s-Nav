@@ -389,4 +389,4 @@ python3 scripts/ws_cmd.py --raw get_all_pgm_map
 | `~/.config/zenoh/pc_router.json5` | PC zenoh 配置 |
 | NX `/ota/calibration_results.yaml` | 传感器标定(雷达外参/相机内参) |
 | NX `/ota/robot_slam.yaml` | SLAM 话题/路径配置 |
-| NX `/ota/alg_data/map/` | 地图存储(当前: `2026_08_08_07_28_38`) |
+| NX `/ota/alg_data/map/` | 地图存储(当前: `2026_08_08_07_28_38`) |# Dog-s-Nav
