@@ -1,0 +1,11 @@
+# colcon 构建产物 (生成, 不需要上传)
+build/
+install/
+log/
+
+# Python 缓存
+**/__pycache__/
+*.pyc
+
+# 地图数据 (可选, 也可保留)
+# maps/

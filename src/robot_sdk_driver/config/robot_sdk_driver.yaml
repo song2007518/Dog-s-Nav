@@ -1,0 +1,45 @@
+robot_sdk_driver:
+  ros__parameters:
+    ip: "192.168.234.1"
+    port: "8082"
+    transport: "udp"
+
+    # Startup behavior
+    connect_timeout: 10.0
+    auto_take_control: true
+    auto_standup: false
+    connect_only: false
+
+    # Initial robot settings
+    speed_level: 1        # 1=low 2=medium 3=high
+    mode: 1               # 1=general 2=in-place 3=stair
+
+    # Data reporting enable/disable
+    enable_mc: true
+    enable_imu: true
+    imu_freq: 50
+    enable_joint_state: true
+    enable_speed_report: false
+    speed_report_freq: 50
+    enable_lux: false
+
+    # Topics / frames
+    cmd_vel_topic: "/cmd_vel"
+    odom_topic: "/odom"
+    imu_topic: "/imu/data"
+    joint_states_topic: "/joint_states"
+    battery_topic: "/battery_state"
+    diagnostics_topic: "/diagnostics"
+    frame_odom: "odom"
+    frame_base: "base_link"
+    publish_tf: true
+
+    # Motion safety
+    cmd_vel_timeout: 1.0     # zero velocity after this many seconds
+    watchdog_period: 0.2     # re-send interval for the last cmd_vel
+    reconnect_period: 3.0
+
+    # Max physical velocities per speed level [low, medium, high]
+    vx_max: [1.0, 2.0, 3.0]    # m/s
+    vy_max: [0.5, 0.5, 0.5]    # m/s
+    wz_max: [1.5, 1.5, 1.5]    # rad/s
