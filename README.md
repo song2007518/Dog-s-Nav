@@ -255,7 +255,7 @@ custom_nav_node:
     laser_frame: "base_link"              # 扫描坐标系(NX 已标定到 base_link)
     laser_ext_x: 0.0                      # 若用原始系需补外参
     laser_ext_y: 0.0
-    laser_inflation: 0.7                  # 动态障碍膨胀半径 m(障碍加厚->绕更远)
+    laser_inflation: 0.5                  # 动态障碍膨胀半径 m(原始值)
     replan_period: 0.25                   # 重规划周期 s(4次/s, 刷新更勤)
     laser_range_max: 6.0                  # 扫描有效距离
     laser_block_check_ahead: 0.8          # 航点堵塞检测半径

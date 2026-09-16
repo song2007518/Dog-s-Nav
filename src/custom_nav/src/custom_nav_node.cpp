@@ -62,7 +62,7 @@ class CustomNavNode : public rclcpp::Node {
     declare_parameter<double>("lookahead", 0.5);
     declare_parameter<bool>("treat_unknown_free", true);
     declare_parameter<std::string>("laser_topic", "/laser_scan");
-    declare_parameter<double>("laser_inflation", 0.7);
+    declare_parameter<double>("laser_inflation", 0.5);
     declare_parameter<double>("replan_period", 0.25);
     declare_parameter<double>("laser_range_max", 6.0);
     declare_parameter<double>("laser_block_check_ahead", 0.8);
@@ -712,7 +712,7 @@ class CustomNavNode : public rclcpp::Node {
   double tol_xy_{0.15};
   double tol_yaw_{0.1};
   double robot_radius_{0.35};
-  double laser_inflation_{0.7};
+  double laser_inflation_{0.5};
   double replan_period_{0.25};
   double laser_range_max_{6.0};
   double laser_block_check_ahead_{0.8};

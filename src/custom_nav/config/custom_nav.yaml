@@ -20,7 +20,7 @@ custom_nav_node:
     laser_frame: "base_link"        # NX 已把标定应用好; 若是原始系如 livox_frame 则套用 laser_ext_xy
     laser_ext_x: 0.0
     laser_ext_y: 0.0
-    laser_inflation: 0.7
+    laser_inflation: 0.5
     replan_period: 0.25
     laser_range_max: 6.0
     laser_block_check_ahead: 0.8
