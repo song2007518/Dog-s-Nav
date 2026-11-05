@@ -1,0 +1,5 @@
+{
+  "returncode": 0,
+  "stdout": "{\"success\": true, \"message\": \"stand-up-only completed; cmd_vel remains disabled\"}\n",
+  "stderr": ""
+}

@@ -1,0 +1,30 @@
+{
+  "live": true,
+  "online": true,
+  "map_id": "2026_08_08_07_28_38",
+  "map_source": "robot",
+  "states": {
+    "mapping": "MappingReady",
+    "loc": "ContinuousLoc",
+    "nav": "Unknown"
+  },
+  "ros": {
+    "ready": "ROS 已收到设备数据（只读）",
+    "pose": "map 位姿：(0.72, -2.50)",
+    "odom_type": "位姿源：localization_odom",
+    "scan": "激光：765 个有效点"
+  },
+  "errors": [],
+  "log": [
+    "[20:07:22] 就绪：离线演示模式，未连接设备。示例轨迹由本地模拟器生成。",
+    "[20:07:22] 地图：等待设备地图 · 100 × 80 · 0.100 m/格 · frame=map",
+    "[20:07:22] 进入实机模式：默认只读，尚未连接。",
+    "[20:07:22] 启动 ROS 只读监测，domain=24，RMW=rmw_zenoh_cpp。",
+    "[20:07:22] 正在连接 ws://192.168.234.234:10010；持续连接、串行请求，无自动运动。",
+    "[20:07:22] loc 状态：Unknown → ContinuousLoc",
+    "[20:07:22] mapping 状态：Unknown → MappingReady",
+    "[20:07:25] 已读取 1 张设备地图。",
+    "[20:07:25] 地图：2026_08_08_07_28_38 · 682 × 504 · 0.050 m/格 · frame=map"
+  ],
+  "write_enabled": false
+}

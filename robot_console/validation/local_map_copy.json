@@ -1,0 +1,9 @@
+{
+  "same_pixels_file": true,
+  "copy_sha256": "8e1d629b737f7a7243b7dc0e298834b8aeca7e23890e98669ae9ef9032c4b3d7",
+  "width": 682,
+  "height": 504,
+  "resolution_m": 0.05,
+  "source": "/home/song/robot_ws/robot_sdk_ws/maps/map.pgm",
+  "copy": "/home/song/Documents/Codex/2026-11-02/1-2-3-4-rqt-robot/outputs/robot_console/package/assets/robot_map.pgm"
+}

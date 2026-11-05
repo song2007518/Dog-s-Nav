@@ -1,0 +1,5 @@
+{
+  "returncode": 0,
+  "stdout": "{\"request\": 7, \"response\": \"robots_dog_msgs.srv.MapState_Response(success=True, message='Set State Successful')\"}\n{\"observed_states\": [0, 1, 32, 203], \"latest\": 32}\n{\"request\": 11, \"response\": \"robots_dog_msgs.srv.MapState_Response(success=True, message='Set State Successful')\"}\n{\"after_activation\": 100}\n",
+  "stderr": ""
+}

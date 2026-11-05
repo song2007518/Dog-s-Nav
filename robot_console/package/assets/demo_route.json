@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "map_id": "demo_office",
+  "route_id": "patrol_01",
+  "coordinate_frame": "map",
+  "yaw_unit": "radian",
+  "points": [
+    {
+      "name": "入口",
+      "x": -3.7,
+      "y": -2.6,
+      "yaw": 0
+    },
+    {
+      "name": "走廊",
+      "x": -0.3,
+      "y": -2.5,
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "巡检区",
+      "x": 3.6,
+      "y": 1.7,
+      "yaw": 3.141592653589793
+    },
+    {
+      "name": "返回点",
+      "x": -3.6,
+      "y": 2.6,
+      "yaw": -1.5707963267948966
+    }
+  ]
+}

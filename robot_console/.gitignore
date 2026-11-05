@@ -1,0 +1,12 @@
+# Rebuilt locally; never copy a previous checkout's install tree.
+/build/
+/install/
+/log/
+/runtime/
+**/runtime/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+# Desktop Exec paths are generated for the current checkout by build.sh.
+/*.desktop

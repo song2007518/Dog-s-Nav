@@ -1,0 +1,177 @@
+{
+  "samples": {
+    "/tf_static": {
+      "count": 25,
+      "first_receive": 1793619839.3966444,
+      "last_receive": 1793619851.1562986
+    },
+    "/odom/current_pose": {
+      "count": 39,
+      "first_receive": 1793619839.8353894,
+      "last_receive": 1793619851.2829888,
+      "frame": "map",
+      "stamp": 1793619850.2306676,
+      "position": [
+        0.7161117944884917,
+        -2.5021117714290404,
+        -0.1415937004300009
+      ],
+      "child": "base_link"
+    },
+    "/tf_manager/odom_type": {
+      "count": 39,
+      "first_receive": 1793619839.8355062,
+      "last_receive": 1793619851.2830367,
+      "value": "localization_odom",
+      "stamp": 1793619850.2306676
+    },
+    "/tf": {
+      "count": 39,
+      "first_receive": 1793619839.8356593,
+      "last_receive": 1793619851.282677
+    },
+    "/laser_scan": {
+      "count": 23,
+      "first_receive": 1793619840.344554,
+      "last_receive": 1793619851.282351,
+      "frame": "base_link",
+      "stamp": 1793619850.1306934,
+      "rays": 1801,
+      "finite": 963,
+      "range_min": 0.20000000298023224,
+      "range_max": 15.0
+    },
+    "/front_lidar": {
+      "count": 19,
+      "first_receive": 1793619842.3813736,
+      "last_receive": 1793619851.1541297,
+      "frame": "livox_frame",
+      "stamp": 1793619849.8304546,
+      "points": 20064
+    }
+  },
+  "transforms": {
+    "map -> odom": {
+      "stamp": 0.0,
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "odom -> base_link": {
+      "stamp": 1793619850.2306676,
+      "translation": [
+        0.7161117944884917,
+        -2.5021117714290404,
+        0.05
+      ]
+    }
+  },
+  "nodes": [
+    [
+      "_ros2cli_daemon_24_f07bca31f677431d99108749791872d5",
+      "/"
+    ],
+    [
+      "alg_fsm",
+      "/"
+    ],
+    [
+      "arc_mapping_node",
+      "/"
+    ],
+    [
+      "arc_state_machine_node",
+      "/"
+    ],
+    [
+      "aritag_location_pipline",
+      "/"
+    ],
+    [
+      "charging_alignment_server",
+      "/"
+    ],
+    [
+      "console_readonly_validation",
+      "/"
+    ],
+    [
+      "error_aggregator",
+      "/"
+    ],
+    [
+      "image_decode",
+      "/"
+    ],
+    [
+      "kanon_rust_charge",
+      "/"
+    ],
+    [
+      "kanon_rust_loc",
+      "/"
+    ],
+    [
+      "kanon_rust_nav",
+      "/"
+    ],
+    [
+      "kanon_rust_slam",
+      "/"
+    ],
+    [
+      "launch_ros_16890",
+      "/"
+    ],
+    [
+      "livox_lidar_publisher",
+      "/"
+    ],
+    [
+      "node_alg_perception",
+      "/"
+    ],
+    [
+      "perception_jobs",
+      "/"
+    ],
+    [
+      "realsense_ros_wrapper",
+      "/"
+    ],
+    [
+      "robot_localization",
+      "/"
+    ],
+    [
+      "robot_monitor",
+      "/"
+    ],
+    [
+      "robot_slam",
+      "/"
+    ],
+    [
+      "robot_tf",
+      "/"
+    ],
+    [
+      "ros2_alg_interface",
+      "/"
+    ],
+    [
+      "rqt_robot_console_monitor",
+      "/"
+    ],
+    [
+      "rust_debug_node",
+      "/"
+    ],
+    [
+      "sixents_gps_driver",
+      "/"
+    ]
+  ]
+}

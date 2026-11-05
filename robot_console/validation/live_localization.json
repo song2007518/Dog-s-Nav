@@ -1,0 +1,123 @@
+[
+  {
+    "time": 1793619156.6981878,
+    "func": "loc_load_map",
+    "response": {
+      "req_func": "loc_load_map",
+      "status": "ok",
+      "msg": null,
+      "data": null,
+      "error_code": null
+    }
+  },
+  {
+    "time": 1793619159.7648642,
+    "func": "get_loc_status",
+    "response": {
+      "req_func": "get_loc_status",
+      "status": "ok",
+      "msg": null,
+      "data": "ContinuousLoc",
+      "error_code": null
+    }
+  },
+  {
+    "time": 1793619162.8198886,
+    "func": "get_loc_status",
+    "response": {
+      "req_func": "get_loc_status",
+      "status": "ok",
+      "msg": null,
+      "data": "ContinuousLoc",
+      "error_code": null
+    }
+  },
+  {
+    "time": 1793619165.8803365,
+    "func": "get_loc_status",
+    "response": {
+      "req_func": "get_loc_status",
+      "status": "ok",
+      "msg": null,
+      "data": "ContinuousLoc",
+      "error_code": null
+    }
+  },
+  {
+    "time": 1793619168.9109116,
+    "func": "get_loc_status",
+    "response": {
+      "req_func": "get_loc_status",
+      "status": "ok",
+      "msg": null,
+      "data": "ContinuousLoc",
+      "error_code": null
+    }
+  },
+  {
+    "time": 1793619171.964423,
+    "func": "get_loc_status",
+    "response": {
+      "req_func": "get_loc_status",
+      "status": "ok",
+      "msg": null,
+      "data": "ContinuousLoc",
+      "error_code": null
+    }
+  },
+  {
+    "time": 1793619175.0170379,
+    "func": "get_loc_status",
+    "response": {
+      "req_func": "get_loc_status",
+      "status": "ok",
+      "msg": null,
+      "data": "ContinuousLoc",
+      "error_code": null
+    }
+  },
+  {
+    "time": 1793619178.0663452,
+    "func": "get_loc_status",
+    "response": {
+      "req_func": "get_loc_status",
+      "status": "ok",
+      "msg": null,
+      "data": "ContinuousLoc",
+      "error_code": null
+    }
+  },
+  {
+    "time": 1793619181.1230457,
+    "func": "get_loc_status",
+    "response": {
+      "req_func": "get_loc_status",
+      "status": "ok",
+      "msg": null,
+      "data": "ContinuousLoc",
+      "error_code": null
+    }
+  },
+  {
+    "time": 1793619184.1749432,
+    "func": "get_loc_status",
+    "response": {
+      "req_func": "get_loc_status",
+      "status": "ok",
+      "msg": null,
+      "data": "ContinuousLoc",
+      "error_code": null
+    }
+  },
+  {
+    "time": 1793619187.2090914,
+    "func": "get_loc_status",
+    "response": {
+      "req_func": "get_loc_status",
+      "status": "ok",
+      "msg": null,
+      "data": "ContinuousLoc",
+      "error_code": null
+    }
+  }
+]

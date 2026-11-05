@@ -1,0 +1,19 @@
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+PASS connect, read status and decode map
+PASS read-only gate
+PASS start mapping numeric zero
+PASS save is pending, not completed on ack
+PASS map save completion from polling
+PASS localization response alias
+PASS continuous localization
+PASS save ordered named route
+PASS start multi-point navigation
+PASS navigation accepted vs active distinction
+PASS pause navigation
+PASS pause status
+PASS resume navigation
+PASS priority stop navigation
+PASS stop acknowledged and state refreshed
+PASS disconnect disarms real operations
+ALL PROTOCOL INTEGRATION CHECKS PASSED

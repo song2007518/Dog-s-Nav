@@ -1,0 +1,29 @@
+2026-11-05T08:13:49.697620Z  WARN net-0 ThreadId(02) zenoh::net::runtime::orchestrator: Unable to connect to any locator of scouted peer f4f7320d45eaaef1005129824c1a8a1c: [tcp/127.0.0.1:45645]
+2026-11-05T08:13:49.697719Z  WARN net-0 ThreadId(02) zenoh::net::runtime::orchestrator: Unable to connect to any locator of scouted peer 3932a4cd2813b1bf7ccfb4a6e82036a4: [tcp/127.0.0.1:40891]
+2026-11-05T08:13:49.697745Z  WARN net-0 ThreadId(02) zenoh::net::runtime::orchestrator: Unable to connect to any locator of scouted peer a5dcbd25e0404363c0471b06d0edb604: [tcp/127.0.0.1:45725]
+2026-11-05T08:13:49.697767Z  WARN net-0 ThreadId(02) zenoh::net::runtime::orchestrator: Unable to connect to any locator of scouted peer 2a85bbeedf41c472fc6c9d21ba56f966: [tcp/127.0.0.1:34945]
+2026-11-05T08:13:50.153781Z  WARN ThreadId(13) zenoh::net::runtime::orchestrator: Scouting delay elapsed before start conditions are met.
+{
+  "actual_rqt": true,
+  "mode": "disconnected_start_all_panel",
+  "robot_connection": false,
+  "map_source": "local",
+  "map_id": "robot_map",
+  "stack": {
+    "state": "idle",
+    "text": "未启动",
+    "processes": [],
+    "components": [],
+    "busy": false,
+    "can_stop": false,
+    "exit_code": null
+  },
+  "script_executed": false,
+  "size": [
+    1660,
+    975
+  ],
+  "start_enabled": false,
+  "consent_checked": false,
+  "screenshot": "outputs/robot_console/screenshots/任务控制台-系统启动.png"
+}

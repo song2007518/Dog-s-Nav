@@ -1,0 +1,12 @@
+{
+  "actual_rqt": true,
+  "mode": "local_map_review",
+  "robot_connection": false,
+  "map_id": "robot_map",
+  "width": 682,
+  "height": 504,
+  "resolution": 0.05,
+  "live_pose": false,
+  "live_scan": false,
+  "screenshot": "outputs/robot_console/screenshots/任务控制台-历史实机地图.png"
+}

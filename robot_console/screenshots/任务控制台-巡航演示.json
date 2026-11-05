@@ -1,0 +1,13 @@
+{
+  "mode": "demo",
+  "map_source": "demo",
+  "map_id": "demo_office",
+  "states": {
+    "mapping": "MappingReady",
+    "loc": "ContinuousLoc",
+    "nav": "StandBy"
+  },
+  "time": "2026-11-03T19:32:50.593001",
+  "route_points": 4,
+  "note": "离线模式中的运动、激光、任务状态为模拟"
+}

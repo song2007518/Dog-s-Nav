@@ -1,0 +1,17 @@
+{
+  "actual_rqt": true,
+  "mode": "offline_demo",
+  "robot_connection": false,
+  "size": [
+    1660,
+    975
+  ],
+  "map_id": "demo_office",
+  "waypoints": 4,
+  "preview_path_points": 173,
+  "demo_motion_started": false,
+  "presentation": true,
+  "source_label_visible": true,
+  "screenshot": "outputs/robot_console/screenshots/任务控制台-巡航演示.png",
+  "snapshot_button": "passed"
+}

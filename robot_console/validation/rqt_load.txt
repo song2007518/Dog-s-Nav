@@ -1,0 +1,4 @@
+[36mThis plugin does not support propagateSizeHints()[0m
+[36mThis plugin does not support propagateSizeHints()[0m
+PASS: real rqt plugin loaded; demo navigation active; screenshot /home/song/Documents/Codex/2026-11-02/1-2-3-4-rqt-robot/outputs/robot_console/rqt_preview.png
+[36mThis plugin does not support propagateSizeHints()[0m

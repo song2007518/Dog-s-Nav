@@ -1,5 +1,7 @@
 # 机器狗自研导航 · 完整技术文档（论文写作参考）
 
+> **当前实机入口仍是原 `./scripts/start_all.sh + RViz`（见第 8、9 节）。rqt 尚未完成，不替代原方案。** 新增的 [robot_console](robot_console/README.md) 用于界面展示、点位编辑、只读监测和启动管理开发；真实导航完整链路仍需验收。
+
 本仓库是一个四足机器狗（ZSL-1(1W)，伴算机 NX + 板载 SDK 驱动）的自研导航系统。
 **不依赖官方导航**（kanon_rust / arc 状态机），核心是自研 C++ 节点 `custom_nav`（A* 规划 + 动态避障）+ SDK 驱动 `zs1w_driver`。
 
@@ -301,10 +303,11 @@ custom_nav_node:
 
 ---
 
-## 8. 一键启动
+## 8. 一键启动（当前推荐，保留原方案）
 
 ```bash
 # 前台(推荐): 全栈拉起 + 自愈监控, Ctrl+C 受控趴下
+cd ~/robot_ws/robot_sdk_ws
 ./scripts/start_all.sh
 
 # 后台守护(可选)
@@ -319,6 +322,38 @@ python3 scripts/cam_view.py
 start_all.sh 自动完成：清理残留 → zenoh router → 确保板卡驱动(SSH) → 站立 → 定位检测/恢复(自动探测最新地图) → ws_map_pub 发 /map → custom_nav → rviz → 相机窗口 → **自愈监控**（狗重启/驱动掉线/定位卡死 → 自动恢复；进程挂了自动拉起）。
 
 Ctrl+C 退出：停运动 → `lie_down`(受控半蹲) → `passive`(阻尼趴下) → 清理进程。
+
+
+### 8.1 rqt 任务控制台（开发中，可选）
+
+rqt 代码现放在本仓库 `robot_console/`，与原导航节点和启动脚本分开构建。首次使用：
+
+```bash
+cd ~/robot_ws/robot_sdk_ws/robot_console
+./build.sh
+./start_console.sh --presentation   # 离线展示，适合拍照
+# ./start_console.sh --robot        # 实机只读监测
+# ./start_console.sh --stack        # 打开启动管理页；不会自动运行 start_all
+./test.sh                           # 离线单元/界面回归
+```
+
+| 模块 | 当前状态 |
+|---|---|
+| 中文界面、历史地图、巡航点编辑、保存加载、展示截图 | 已实现 |
+| WebSocket 地图/状态、ROS 位姿/激光/实际路径显示 | 已实现只读通道；具体实测范围见验收记录 |
+| start_all 管理页 | 已接入原脚本，替身脚本测试通过；实机整套启停尚未验收 |
+| rqt 点位 → 自研导航 → 实际到点 | 尚未打通，真实目标继续用 RViz 的 2D Goal Pose |
+| 真实键盘接管、避障、嵌入相机、变化环境定位恢复 | 尚需开发与实机验收；相机继续用原 cam_view 窗口 |
+| 授时持久化、开机恢复 | 仅有草稿，未部署 |
+
+离线路径优化只用于 rqt 演示，没有替换实机 `custom_nav` 规划器。原导航链路运行时 rqt 会让出官方 WebSocket 连接，避免与地图发布组件争用。关闭 rqt 不会自动停止已启动的 start_all 守护进程，收工仍须执行原停止流程并核验姿态。
+
+- [rqt 使用说明](robot_console/README.md)
+- [开发状态与待验收项](robot_console/docs/DEVELOPMENT_STATUS.md)
+- [历史验证记录](robot_console/validation/验收记录.md)
+- [界面截图与来源信息](robot_console/screenshots/)
+
+`robot_console/.gitignore` 排除了本机构建产物、运行缓存和生成的快捷方式。提交源码后，其他电脑应重新执行 `build.sh`。本次整理未修改 `scripts/start_all.sh`。
 
 ---
 
@@ -379,7 +414,8 @@ python3 scripts/ws_cmd.py --raw get_all_pgm_map
 | `src/custom_nav/include/custom_nav/path_planner.hpp` | 规划器头 |
 | `src/custom_nav/config/custom_nav.yaml` | 全部参数（见 6.3） |
 | `src/custom_nav/scripts/e_stop.py` | 一键急停 |
-| `scripts/start_all.sh` | 一键启动+自愈 |
+| `scripts/start_all.sh` | 一键启动+自愈（当前主入口） |
+| `robot_console/` | rqt 界面、工具、地图、截图及验证材料（开发中） |
 | `scripts/ws_cmd.py` | WebSocket 命令工具 |
 | `scripts/ws_map_pub.py` | 实时拉地图发布 /map |
 | `scripts/cam_view.py` | RTSP 相机窗口 |

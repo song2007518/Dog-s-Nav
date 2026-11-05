@@ -1,0 +1,66 @@
+test_astar_goes_around_obstacle (test_console.GeometryTests) ... ok
+test_boundaries_do_not_truncate_negative_to_zero (test_console.GeometryTests) ... ok
+test_export_reload_orientation_and_occupancy (test_console.GeometryTests) ... ok
+test_full_3d_rotation_respects_sensor_pitch (test_console.GeometryTests) ... ok
+test_image_top_is_ros_last_row (test_console.GeometryTests) ... ok
+test_invalid_map_dimensions (test_console.GeometryTests) ... ok
+test_payload_rejects_ambiguous_encoding (test_console.GeometryTests) ... ok
+test_pose_quaternion_and_duplicate_names (test_console.GeometryTests) ... ok
+test_real_map_load (test_console.GeometryTests) ... ok
+test_rotated_origin_roundtrip (test_console.GeometryTests) ... ok
+test_route_roundtrip_and_nan_rejection (test_console.GeometryTests) ... ok
+test_cancelled_result_cannot_rebind_localization (test_console.GuiTests) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+ok
+test_click_drag_adds_world_pose (test_console.GuiTests) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+ok
+test_demo_obstacle_replans_or_stops (test_console.GuiTests) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+ok
+test_edit_invalid_cell_reverts (test_console.GuiTests) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+ok
+test_empty_map_never_receives_world_scan_overlay (test_console.GuiTests) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+ok
+test_full_demo_route_completes_and_locks_editing (test_console.GuiTests) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+ok
+test_initial_state_no_device_threads_and_size (test_console.GuiTests) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+ok
+test_keyboard_release_and_application_deactivate_stop (test_console.GuiTests) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+ok
+test_pause_stop_and_loc_failure (test_console.GuiTests) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+ok
+test_read_timeout_clears_status_and_avoids_mutation_warning (test_console.GuiTests) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+ok
+test_real_mode_never_creates_velocity_publisher_or_thread_on_entry (test_console.GuiTests) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+ok
+test_real_navigation_rejects_stale_localization (test_console.GuiTests) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+ok
+test_reorder_delete_and_bounds (test_console.GuiTests) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+ok
+test_scan_pixels_stay_inside_plot_in_small_window (test_console.GuiTests) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+ok
+test_stop_mapping_waits_for_save_completion (test_console.GuiTests) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+ok
+test_all_documented_wrappers (test_console.ProtocolTests) ... ok
+test_load_localization_alias (test_console.ProtocolTests) ... ok
+test_request_retains_numeric_zero (test_console.ProtocolTests) ... ok
+test_worker_matches_after_unsolicited_and_wrong_response (test_console.ProtocolTests) ... ok
+test_wrong_sequence_function_and_notifications_rejected (test_console.ProtocolTests) ... ok
+
+----------------------------------------------------------------------
+Ran 31 tests in 1.871s
+
+OK

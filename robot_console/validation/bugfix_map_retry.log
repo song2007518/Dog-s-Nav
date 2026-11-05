@@ -1,0 +1,3 @@
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+PASS dropped first map response -> automatic read-only retry -> map displayed; same connection; no mutations

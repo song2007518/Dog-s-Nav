@@ -1,0 +1,24 @@
+{
+  "actual_rqt": true,
+  "mode": "disconnected_start_all_panel",
+  "robot_connection": false,
+  "map_source": "local",
+  "map_id": "robot_map",
+  "stack": {
+    "state": "idle",
+    "text": "未启动",
+    "processes": [],
+    "components": [],
+    "busy": false,
+    "can_stop": false,
+    "exit_code": null
+  },
+  "script_executed": false,
+  "size": [
+    1660,
+    975
+  ],
+  "start_enabled": false,
+  "consent_checked": false,
+  "screenshot": "outputs/robot_console/screenshots/任务控制台-系统启动.png"
+}

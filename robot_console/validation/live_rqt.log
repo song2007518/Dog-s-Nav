@@ -1,0 +1,39 @@
+2026-11-02T11:47:49.532837Z  WARN net-0 ThreadId(02) zenoh::net::runtime::orchestrator: Unable to connect to any locator of scouted peer e46040cdd74083e6b5eeb39a7ed35a82: [tcp/127.0.0.1:42953]
+2026-11-02T11:47:49.532899Z  WARN net-0 ThreadId(02) zenoh::net::runtime::orchestrator: Unable to connect to any locator of scouted peer b094527bc5aa632865bd8da350b6783f: [tcp/127.0.0.1:40397]
+2026-11-02T11:47:49.532913Z  WARN net-0 ThreadId(02) zenoh::net::runtime::orchestrator: Unable to connect to any locator of scouted peer 995839ccc5d3dce779930f1c1c38570a: [tcp/127.0.0.1:43209]
+2026-11-02T11:47:49.532925Z  WARN net-0 ThreadId(02) zenoh::net::runtime::orchestrator: Unable to connect to any locator of scouted peer 13a82ff4c49f7e073f3d296b04818a0: [tcp/127.0.0.1:40383]
+2026-11-02T11:47:50.012567Z  WARN ThreadId(12) zenoh::net::runtime::orchestrator: Scouting delay elapsed before start conditions are met.
+[36mThis plugin does not support propagateSizeHints()[0m
+[36mThis plugin does not support propagateSizeHints()[0m
+2026-11-02T11:47:51.176648Z  WARN net-0 ThreadId(02) zenoh::net::runtime::orchestrator: Unable to connect to any locator of scouted peer 995839ccc5d3dce779930f1c1c38570a: [tcp/127.0.0.1:43209]
+2026-11-02T11:47:51.176705Z  WARN net-0 ThreadId(02) zenoh::net::runtime::orchestrator: Unable to connect to any locator of scouted peer b094527bc5aa632865bd8da350b6783f: [tcp/127.0.0.1:40397]
+2026-11-02T11:47:51.548590Z  WARN ThreadId(14) zenoh::net::runtime::orchestrator: Scouting delay elapsed before start conditions are met.
+[36mThis plugin does not support propagateSizeHints()[0m
+{"early_state": {"mapping": "MappingReady", "loc": "ContinuousLoc", "nav": "Unknown"}, "map": "2026_08_08_07_28_38", "logs": ["[19:47:50] 就绪：离线演示模式，未连接设备。示例轨迹由本地模拟器生成。", "[19:47:50] 地图：等待设备地图 · 100 × 80 · 0.100 m/格 · frame=map", "[19:47:50] 进入实机模式：默认只读，尚未连接。", "[19:47:50] 启动 ROS 只读监测，domain=24，RMW=rmw_zenoh_cpp。", "[19:47:50] 正在连接 ws://192.168.234.234:10010；持续连接、串行请求，无自动运动。", "[19:47:53] 已读取 1 张设备地图。", "[19:47:53] 地图：2026_08_08_07_28_38 · 682 × 504 · 0.050 m/格 · frame=map", "[19:47:54] loc 状态：Unknown → ContinuousLoc", "[19:47:54] mapping 状态：Unknown → MappingReady"]}
+{
+  "local_waypoint_roundtrip": true,
+  "live": true,
+  "online": true,
+  "map": "2026_08_08_07_28_38",
+  "map_source": "robot",
+  "map_size": [
+    682,
+    504
+  ],
+  "states": {
+    "mapping": "MappingReady",
+    "loc": "ContinuousLoc",
+    "nav": "Unknown"
+  },
+  "ros": {
+    "ready": "ROS 已收到设备数据（只读）",
+    "pose": "map 位姿：(0.72, -2.50)",
+    "odom_type": "位姿源：localization_odom",
+    "scan": "激光：852 个有效点"
+  },
+  "write_enabled": false,
+  "navigation_owner": false,
+  "errors": []
+}
+PASS live rqt: real device map and statuses, read-only ROS, no control requests
+[36mThis plugin does not support propagateSizeHints()[0m

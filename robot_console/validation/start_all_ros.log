@@ -1,0 +1,3 @@
+PASS custom_nav path subscription, frame/time/NaN rejection and empty-path clearing
+PASS ROS pose transformed odom -> map, laser -> base_link, invalid scan filtering, latched map subscription
+PASS ROS monitor shutdown without publishers or robot control

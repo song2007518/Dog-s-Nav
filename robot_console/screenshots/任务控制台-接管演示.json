@@ -1,0 +1,6 @@
+{
+  "mode": "demo",
+  "scenario": "模拟定位丢失，停车后手动待接管",
+  "real_robot_connected": false,
+  "movement_commands_to_robot": 0
+}

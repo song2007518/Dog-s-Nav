@@ -1,0 +1,25 @@
+{
+  "local_waypoint_roundtrip": true,
+  "live": true,
+  "online": true,
+  "map": "2026_08_08_07_28_38",
+  "map_source": "robot",
+  "map_size": [
+    682,
+    504
+  ],
+  "states": {
+    "mapping": "MappingReady",
+    "loc": "ContinuousLoc",
+    "nav": "Unknown"
+  },
+  "ros": {
+    "ready": "ROS 已收到设备数据（只读）",
+    "pose": "map 位姿：(0.72, -2.50)",
+    "odom_type": "位姿源：localization_odom",
+    "scan": "激光：866 个有效点"
+  },
+  "write_enabled": false,
+  "navigation_owner": false,
+  "errors": []
+}

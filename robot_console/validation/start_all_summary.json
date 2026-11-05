@@ -1,0 +1,16 @@
+{
+  "installed_matches_source": {
+    "app.py": true,
+    "presentation.py": true,
+    "transport.py": true,
+    "stack.py": true,
+    "stack_ui.py": true
+  },
+  "local_dependency_missing": [],
+  "original_script": "/home/song/robot_ws/robot_sdk_ws/scripts/start_all.sh",
+  "original_script_sha256": "43e9b4698b53b0e9a0a42bacd9989ca0d8d557e941756f6800a242f5ef771338",
+  "real_start_all_executed_in_this_update": false,
+  "unit_gui_tests": 57,
+  "ros_integration": "passed on isolated localhost domain 124",
+  "websocket_integration": "passed on localhost mock device"
+}

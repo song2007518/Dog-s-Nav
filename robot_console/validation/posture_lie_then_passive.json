@@ -1,0 +1,5 @@
+{
+  "returncode": 0,
+  "stdout": "\u001b[2m2026-11-02T12:24:09.678454Z\u001b[0m \u001b[33m WARN\u001b[0m net-0 ThreadId(02) \u001b[2mzenoh::net::runtime::orchestrator\u001b[0m\u001b[2m:\u001b[0m Unable to connect to any locator of scouted peer 8b733542b1ba556a3a36e6079e478f36: [tcp/127.0.0.1:40977]\n\u001b[2m2026-11-02T12:24:09.678937Z\u001b[0m \u001b[33m WARN\u001b[0m net-0 ThreadId(02) \u001b[2mzenoh::net::runtime::orchestrator\u001b[0m\u001b[2m:\u001b[0m Unable to connect to any locator of scouted peer 33660cb799fda9a01cb533eedfadf47: [tcp/127.0.0.1:35827]\n\u001b[2m2026-11-02T12:24:10.175246Z\u001b[0m \u001b[33m WARN\u001b[0m ThreadId(17) \u001b[2mzenoh::net::runtime::orchestrator\u001b[0m\u001b[2m:\u001b[0m Scouting delay elapsed before start conditions are met.\n{\"service\": \"/zs1w/lie_down\", \"success\": true, \"message\": \"\", \"time\": 1793622250.2890282}\n{\"service\": \"/zs1w/passive\", \"success\": true, \"message\": \"\", \"time\": 1793622256.3219059}\n",
+  "stderr": ""
+}

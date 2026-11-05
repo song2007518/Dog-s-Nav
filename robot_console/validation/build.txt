@@ -1,0 +1,6 @@
+Starting >>> rqt_robot_console
+[Processing: rqt_robot_console]
+[Processing: rqt_robot_console]
+Finished <<< rqt_robot_console [1min 0s]
+
+Summary: 1 package finished [1min 0s]

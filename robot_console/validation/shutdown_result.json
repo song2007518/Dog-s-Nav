@@ -1,0 +1,12 @@
+[
+  {
+    "pid": 65396,
+    "signal": "SIGINT",
+    "exited": true
+  },
+  {
+    "pid": 60075,
+    "signal": "SIGTERM",
+    "exited": true
+  }
+]

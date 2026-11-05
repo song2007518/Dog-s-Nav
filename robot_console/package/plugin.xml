@@ -1,0 +1,11 @@
+<library path="rqt_robot_console">
+  <class name="RobotConsole" type="rqt_robot_console.plugin.RobotConsolePlugin" base_class_type="qt_gui_py::Plugin">
+    <description>智航机器狗：地图、巡航点、建图接口与离线演示</description>
+    <qtgui>
+      <group><label>Robot Tools</label><icon type="theme">applications-engineering</icon></group>
+      <label>智航机器狗控制台</label>
+      <icon type="theme">applications-engineering</icon>
+      <statustip>ZSL-1W mission console</statustip>
+    </qtgui>
+  </class>
+</library>
